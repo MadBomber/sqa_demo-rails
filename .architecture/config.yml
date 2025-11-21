@@ -1,0 +1,20 @@
+# AI Software Architect Framework Configuration
+
+project_name: "MyRailsApp"
+version: "1.0.0"
+
+# Pragmatic Mode Configuration
+pragmatic_mode:
+  enabled: false
+  intensity: medium  # low, medium, high
+  defer_decisions: false
+
+# Review Configuration
+reviews:
+  require_approval: false
+  min_reviewers: 1
+
+# Documentation
+documentation:
+  adr_format: "markdown"
+  auto_link_adrs: true
