@@ -1,0 +1,32 @@
+# frozen_string_literal: true
+# sqa-rails — Rails 8 demo web app for SQA. A Rails app, not a packaged gem,
+# so it does not import repo_dev.loki's build/install/release tasks.
+
+class Tasks
+  header "sqa-rails — Rails 8 demo app for SQA"
+
+  desc "Run the test suite"
+  def test
+    sh "bin/rails test"
+  end
+
+  desc "Start the Rails dev server"
+  def server
+    sh "bin/dev"
+  end
+
+  desc "Open the Rails console"
+  def console
+    sh "bin/rails console"
+  end
+
+  desc "Check code style with RuboCop"
+  def rubocop
+    sh "bin/rubocop"
+  end
+
+  desc "Run database migrations"
+  def migrate
+    sh "bin/rails db:migrate"
+  end
+end

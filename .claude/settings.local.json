@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(bundle update:*)",
+      "Bash(bin/rails app:update:*)",
+      "Bash(bin/rails:*)",
+      "Skill(create-adr)",
+      "Bash(test:*)",
+      "Skill(setup-architect)",
+      "Bash(bundle install:*)",
+      "WebFetch(domain:madbomber.github.io)",
+      "mcp__playwright-mcp__playwright_navigate",
+      "mcp__playwright-mcp__playwright_screenshot",
+      "mcp__playwright-mcp__playwright_evaluate",
+      "mcp__playwright-mcp__playwright_close",
+      "Bash(pkill:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
