@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.1.0"  # Full-stack web application framework.
+gem "rails", "~> 8.1.3"  # Full-stack web application framework.
 gem "propshaft"          # Deliver assets for Rails.
 gem "pg", ">= 1.1"  # PostgreSQL database adapter for Ruby
 gem "puma", ">= 5.0"     # A Ruby/Rack web server built for parallelism.
