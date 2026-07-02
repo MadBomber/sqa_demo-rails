@@ -14,7 +14,10 @@ module MyRailsApp
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
-    config.autoload_lib(ignore: %w[assets tasks])
+    # `sqa_demo` holds a plain VERSION constant (lib/sqa_demo/rails/version.rb)
+    # for workspace-wide version coordination; ignore it so Zeitwerk does not
+    # try to autoload it as a `Version` class.
+    config.autoload_lib(ignore: %w[assets tasks sqa_demo])
 
     # Configuration for the application, engines, and railties goes here.
     #
