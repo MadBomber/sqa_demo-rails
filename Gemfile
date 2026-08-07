@@ -10,6 +10,7 @@ gem "turbo-rails"        # The speed of a single-page web application without ha
 gem "stimulus-rails"     # A modest JavaScript framework for the HTML you already have.
 gem "tailwindcss-rails"  # Integrate Tailwind CSS with the asset pipeline in Rails.
 gem "jbuilder"           # Create JSON structures via a Builder-style DSL
+gem "myway_config"       # XDG-aware configuration management (extends anyway_config)
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
