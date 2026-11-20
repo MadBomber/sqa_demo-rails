@@ -40,3 +40,6 @@
 .claude-on-rails/sessions/
 .claude-swarm/
 claude-swarm.log
+
+# Local cross-repo dev lockfile (Gemfile.local)
+/Gemfile.local.lock
