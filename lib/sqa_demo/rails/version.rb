@@ -10,6 +10,6 @@
 # `Version` class here rather than a `VERSION` constant.
 module SqaDemo
   module Rails
-    VERSION = '0.3.0'
+    VERSION = "0.3.0"
   end
 end
