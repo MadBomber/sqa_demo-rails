@@ -23,14 +23,14 @@ gem "thruster", require: false  # Zero-config HTTP/2 proxy
 
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"  # Debugging functionality for Ruby
-  gem 'debug_me'                                # A tool to print the labeled value of variables.
+  gem "debug_me"                                # A tool to print the labeled value of variables.
   gem "brakeman", require: false                # Security vulnerability scanner for Ruby on Rails.
   gem "rubocop-rails-omakase", require: false   # Omakase Ruby styling for Rails
 end
 
 group :development do
-  gem 'aigcm', require: false   # AI-powered git commit message generator
-  gem 'claude-on-rails'         # Rails development framework powered by Claude swarm intelligence
+  gem "aigcm", require: false   # AI-powered git commit message generator
+  gem "claude-on-rails"         # Rails development framework powered by Claude swarm intelligence
   gem "web-console"             # A debugging tool for your Ruby on Rails applications.
 end
 
